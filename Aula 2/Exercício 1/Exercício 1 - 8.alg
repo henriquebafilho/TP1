@@ -36,6 +36,8 @@ caso 4
    leia(grama)
    //1 onça = 28.3495 -> 1/28.3495 = 0.0352
    escreval(grama*0.0352," onças.")
+outrocaso
+   escreval("Escolha um número de 1 a 4 e tente novamente.")
 fimescolha
 
 fimalgoritmo
