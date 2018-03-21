@@ -5,6 +5,7 @@ algoritmo "semnome"
 // Seção de Declarações
 var
 km,litros,resultado : real
+economico : logico
 inicio
 escreval("Insira quantos kilômetros foram percorridos: ")
 leia(km)
@@ -15,6 +16,11 @@ resultado <- km/litros
 
 escreval("Um carro econômico percorre 15km/l.")
 se(resultado>=15)entao
+   economico <- verdadeiro
+senao
+   economico <- falso
+fimse
+se(economico)entao
    escreval("Você percorreu ",resultado,"km/l. Portanto, seu carro é econômico.")
 senao
    escreval("Você percorreu ",resultado,"km/l. Portanto, seu carro não é econômico.")

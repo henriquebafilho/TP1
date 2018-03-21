@@ -21,21 +21,20 @@ caso "+"
    escreval("Insira o segundo número: ")
    leia(num2)
    resultado <- num1 + num2
-   escreval(num1," +",num2," =",resultado)
 caso "-"
    escreval("Insira o segundo número: ")
    leia(num2)
    resultado <- num1 - num2
-   escreval(num1," -",num2," =",resultado)
 caso "*"
    escreval("Insira o segundo número: ")
    leia(num2)
    resultado <- num1 * num2
-   escreval(num1," *",num2," =",resultado)
 caso "/"
    escreval("Insira o segundo número: ")
    leia(num2)
    resultado <- num1 / num2
-   escreval(num1," /",num2," =",resultado)
+outrocaso
+   escreval("Insira um caracter válido.")
 fimescolha
+escreval(num1," ",operacao,num2," =",resultado)
 fimalgoritmo

@@ -20,11 +20,10 @@ senao
       caminhao <- conteiner/capacidade
       escreval("Serão necessários",caminhao," caminhões para transportar sua carga.")
    senao
-      caminhao <- conteiner\capacidade
+      caminhao <- (conteiner\capacidade) + 1
       resto <- conteiner%capacidade
       porcentagem <- resto*100/capacidade
       escreval("Serão necessários",caminhao," caminhões, estando o último caminhão com",porcentagem,"% de ocupação.")
    fimse
 fimse
-
 fimalgoritmo

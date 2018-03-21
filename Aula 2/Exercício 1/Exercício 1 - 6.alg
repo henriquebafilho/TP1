@@ -12,19 +12,19 @@ leia(imposto)
 escreval("Insira o número de meses atrasados: ")
 leia(meses)
 
-se(imposto<100)entao
-   multa <- 2
-   escreval("Valor autal do imposto: R$",imposto + (multa*meses))
+se(imposto<=0)entao
+   escreval("Imposto inexistente.")
+senao
+   se(imposto<100)entao
+      multa <- meses * 2
+   senao
+      se(imposto<=500)entao
+         multa <- meses * 4
+      senao
+         multa <- meses * 8
+      fimse
+   fimse
 fimse
-
-se(imposto>=100) e (imposto<=500)entao
-   multa <-4
-   escreval("Valor autal do imposto: R$",imposto + (multa*meses))
-fimse
-
-se(imposto>500)entao
-   multa <-8
-   escreval("Valor autal do imposto: R$",imposto + (multa*meses))
-fimse
-
+escreval("Valor da multa: R$",multa)
+escreval("Valor autal do imposto: R$",imposto + multa)
 fimalgoritmo
