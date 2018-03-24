@@ -12,19 +12,19 @@ se(num1<0) ou (num1>9)entao
    escreval("Dado inválido.")
    fimalgoritmo
 fimse
-escreval("Insira o primeiro valor: ")
+escreval("Insira o segundo valor: ")
 leia(num2)
 se(num2<0) ou (num2>9)entao
    escreval("Dado inválido.")
    fimalgoritmo
 fimse
-escreval("Insira o primeiro valor: ")
+escreval("Insira o terceiro valor: ")
 leia(num3)
 se(num3<0) ou (num3>9)entao
    escreval("Dado inválido.")
    fimalgoritmo
 fimse
-escreval("Insira o primeiro valor: ")
+escreval("Insira o quarto valor: ")
 leia(num4)
 se(num4<0) ou (num4>9)entao
    escreval("Dado inválido.")
