@@ -14,7 +14,7 @@ escreval("Insira um número entre 1000 e 9999: ")
 leia(introduzido)
 se(introduzido<1000) ou (introduzido>9999)entao
    escreval("Insira um número de 4 digitos.")
-   //fimalgoritmo
+   fimalgoritmo
 senao
    centesimo <- int(introduzido/100)
    resto <- introduzido%100
