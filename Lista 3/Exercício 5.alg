@@ -22,7 +22,7 @@ algoritmo "semnome"
 //2 nota de 2 reais
 //0 nota de 1 real
 var
-introduzido,nota1,nota2,nota5,nota10,nota20,resto : inteiro
+introduzido,nota1,nota2,nota5,nota10,nota20 : inteiro
 inicio
 escreval("Insira a quantia a ser sacada: ")
 leia(introduzido)
