@@ -1,13 +1,7 @@
 algoritmo "semnome"
-// Função :
-// Autor :
-// Data : 26/03/2018
-// Seção de Declarações
-
-//Exercício 5
-
-//Um caixa eletrônico de um banco opera com notas de 1, 2, 5, 10 e 20 reais. Escreva um programa que recebe um
-//determinado valor em real, e retorne a menor combinação de notas existentes para tal valor. Os dois exemplos
+// Função : 5. Um caixa eletrônico de um banco opera com notas de 1, 2, 5, 10 e
+// 20 reais. Escreva um programa que recebe um determinado valor em real, e
+// retorne a menor combinação de notas existentes para tal valor. Os dois exemplos
 //abaixo ilustram a operação realizada.
 //Exemplo1: Se a entrada for 18 reais, seu programa deverá retornar a seguinte mensagem:
 //0 nota de 20 reais
@@ -21,6 +15,8 @@ algoritmo "semnome"
 //0 nota de 5 reais
 //2 nota de 2 reais
 //0 nota de 1 real
+// Autor : Henrique Borges de Almeida Filho
+// Data : 26/03/2018
 var
 introduzido,nota1,nota2,nota5,nota10,nota20 : inteiro
 inicio
