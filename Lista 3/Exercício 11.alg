@@ -1,6 +1,15 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 11. Escreva um programa que receba o código de um produto comprado
+// e a quantidade comprada e retorna: o preço unitário do produto comprado
+// conforme a tabela 1; o preço total da nota sem desconto; o valor do desconto,
+// seguindo a tabela 2 (ex. 20 reais, conforme a porcentagem); o preço final da
+// nota depois do desconto.
+// Código         Preço              Preço total da nota           % de desconto
+// 1 a 10         R$10,00            Até R$250,00                  5%
+// 11 a 20        R$15,00            Entre R$250,00 e R$500,00     10%
+// 21 a 30        R$20,00            A partir de R$500,00          15%
+// 31 a 40        R$30,00
+// Autor : Henrique Borges de Almeida Filho
 // Data : 24/03/2018
 // Seção de Declarações
 var
