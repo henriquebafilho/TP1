@@ -1,6 +1,11 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 4. Escreva um programa que receba o número de horas trabalhadas e o
+// valor da hora de um trabalhador e retorne o seu salário semanal. As seguintes
+// regras devem ser consideradas: até 40 h/semana não se acrescenta nenhum
+// adicional; acima de 40h e até 50h há um bônus de 20% para as horas que
+// ultrapassarem 40h; acima de 50h há um bônus de 100% para as horas
+// que ultrapassarem 50h.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 23/03/2018
 // Seção de Declarações
 var
