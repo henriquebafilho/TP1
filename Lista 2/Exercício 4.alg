@@ -1,6 +1,7 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 4. Escreva um programa que dado três números,
+// exiba o maior entre eles.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 13/03/2018
 // Seção de Declarações
 var
