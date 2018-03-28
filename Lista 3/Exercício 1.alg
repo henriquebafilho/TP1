@@ -1,6 +1,16 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 1. Escreva um programa que receba o peso de uma pessoa na Terra e
+// o código de um planeta e retorna o valor do peso da pessoa neste planeta.
+// A relação de planetas é dada a seguir juntamente com o valor das gravidades
+// relativas á Terra (PesoPlaneta=PesoTerra*GravidadeRelativa):
+//#          Gravidade            Relativa Planeta
+//1          0,37                 Mercúrio
+//2          0,88                 Vênus
+//3          0,38                 Marte
+//4          2,64                 Júpiter
+//5          1,15                 Saturno
+//6          1,17                 Urano
+// Autor : Henrique Borges de Almeida Filho
 // Data : 22/03/2018
 // Seção de Declarações
 var
