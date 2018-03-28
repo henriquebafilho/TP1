@@ -1,6 +1,8 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 9.Implemente um programa que receba, via teclado, as coordenadas dos
+//vértices inferior esquerdo e superior direito do retângulo e as coordenadas
+//do ponto (x,y) e diga na tela se o ponto está ou não está no interior do retângulo.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 15/03/2018
 // Seção de Declarações
 var
