@@ -1,6 +1,8 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 6. Escreva um programa que receba um número inteiro entre 100 e 999
+// e retorna a soma dos dígitos que compõem esse número. Se o número não estiver
+// nesse intervalo emitir uma mensagem de erro.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 26/03/2018
 // Seção de Declarações
 var
