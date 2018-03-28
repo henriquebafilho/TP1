@@ -1,6 +1,8 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 20. Escreva um programa que receba um caractere op representando uma
+// operação aritmética (+, -, *, /) e dois números reais a e b e retorna a
+// expressão matemática junto com o seu resultado no formato a op b = resultado.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 17/03/2018
 // Seção de Declarações
 var
