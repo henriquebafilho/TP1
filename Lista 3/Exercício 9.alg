@@ -1,6 +1,9 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 9. Escreva um programa que receba duas entradas para o jogo
+// pedra-papel-tesoura e retorna vitória, empate ou derrota sob a perspectiva
+// do primeiro jogador. Obs.: pedra ganha de tesoura, que ganha de papel, que
+// ganha de pedra.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 23/03/2018
 // Seção de Declarações
 var
