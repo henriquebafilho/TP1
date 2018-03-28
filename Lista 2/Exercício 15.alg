@@ -1,6 +1,9 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 15. A prefeitura de uma cidade abriu uma linha de crédito para os
+// funcionários estatutários. O valor máximo da prestação não poderá ultrapassar
+// 30% do salário bruto. Escreva um programa que receba o salário bruto e o
+// valor da prestação, e retorna se o empréstimo pode ou não ser concedido.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 15/03/2018
 // Seção de Declarações
 var
