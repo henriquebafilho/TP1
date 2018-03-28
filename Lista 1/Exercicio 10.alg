@@ -1,6 +1,6 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 10. Considere que um sistema é desenvolvido em 5 etapas. Faça um algoritmo que solicita o valor e o tempo de desenvolvimento de cada uma das 5 etapas e exibe o custo total do desenvolvimento do sistema e o tempo para conclusão.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 13/03/2018
 // Seção de Declarações
 var
