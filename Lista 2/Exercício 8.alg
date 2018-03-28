@@ -1,6 +1,12 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 8. Escreva um programa para fazer conversões entre diferentes
+//unidades. As opções do programa devem ser exibidas em forma de um menu
+//apresentado na tela para o usuário escolher a conversão desejada.
+//Após a escolha deve fornecer o valor a ser convertido. O programa deve exibir
+//o valor resultante na tela. As opções apresentadas no menu podem ser:
+//1. Libra Quilograma; 2. Quilograma Libra; 3. Onça Grama; 4. Grama Onça.
+//Sabe-se que 1 libra equivale a 0:4536Kg, 1 onça a 28:3495g
+// Autor : Henrique Borges de Almeida Filho
 // Data : 15/03/2018
 // Seção de Declarações
 var
