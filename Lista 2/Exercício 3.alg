@@ -1,6 +1,7 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 3. Escreva um programa que pergunte ao usuário dois números
+// e diga se o primeiro é divisível pelo segundo ou não.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 13/03/2018
 // Seção de Declarações
 var
