@@ -1,6 +1,6 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 8. Faça um algoritmo que solicita o raio de uma circunferência e exibe seu perímetro e área.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 13/03/2018
 // Seção de Declarações
 var
