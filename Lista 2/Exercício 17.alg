@@ -1,6 +1,14 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 17. A confederação brasileira de natação irá promover eliminatórias
+// para o próximo mundial. Escreva um programa que receba a idade de um nadador
+// e retorna a sua categoria segundo a tabela:
+//Categoria                  Idade
+//Infantil                   A 5 – 7 anos
+//Infantil                   B 8 – 10 anos
+//Juvenil                    A 11 – 13 anos
+//Juvenil                    B 14 – 17 anos
+//Sênior                     Maiores de 18 anos
+// Autor : Henrique Borges de Almeida Filho
 // Data : 15/03/2018
 // Seção de Declarações
 var
