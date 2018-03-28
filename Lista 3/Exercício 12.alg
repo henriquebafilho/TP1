@@ -1,6 +1,7 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 12. Escreva um programa que receba uma senha e retorna se a senha é
+// válida ou não. Para ser válida, a senha deve ter quatro números e nenhum deve se repetir.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 22/03/2018
 // Seção de Declarações
 var
