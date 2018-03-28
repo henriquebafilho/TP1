@@ -1,6 +1,7 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 5. Escreva um programa que recebe 3 números inteiros como entrada
+// e imprime, como saída, os números em ordem crescente.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 13/03/2018
 // Seção de Declarações
 var
