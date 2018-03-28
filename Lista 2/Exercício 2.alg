@@ -1,6 +1,7 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 2. Escreva um programa que pergunte ao usuário dois números
+// e diga qual o maior.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 13/03/2018
 // Seção de Declarações
 var
