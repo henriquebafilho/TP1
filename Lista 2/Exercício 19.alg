@@ -1,6 +1,14 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 19. Escreva um algoritmo que receba o destino do passageiro, se a
+// viagem inclui retorno (ida e volta) e retorna o preço da passagem conforme
+// a tabela a seguir:
+//Condição             Ida                  Ida e Volta
+//Região Norte         R$ 500,00            R$ 900,00
+//Região Nordeste      R$ 350,00            R$ 650,00
+//Região Centro-Oeste  R$ 350,00            R$ 600,00
+//Região Sul           R$ 300,00            R$ 550,00
+//Região Sudeste       R$ 400,00            R$ 700,00
+// Autor : Henrique Borges de Almeida Filho
 // Data : 15/03/2018
 // Seção de Declarações
 var
