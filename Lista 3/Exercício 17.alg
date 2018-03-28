@@ -1,6 +1,6 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 17. Indique dois benefícios para a prática de escolher nomes apropriados para as variáveis.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 26/03/2018
 // Seção de Declarações 
 inicio
