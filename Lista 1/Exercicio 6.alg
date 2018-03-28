@@ -1,5 +1,6 @@
 algoritmo "semnome"
-// Função : 6. Faça um algoritmo que leia 3 números reais e exiba a soma do primeiro com o segundo multiplicada pela soma do segundo pelo terceiro.
+// Função : 6. Faça um algoritmo que leia 3 números reaise exiba a soma
+//do primeiro com o segundo multiplicada pela soma do segundo pelo terceiro.
 // Autor : Henrique Borges de Almeida Filho
 // Data : 13/03/2018
 // Seção de Declarações
