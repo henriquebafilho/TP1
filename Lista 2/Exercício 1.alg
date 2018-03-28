@@ -1,6 +1,7 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 1. Escreva um programa que verifique se o usuário é maior de idade
+// ou não, informando.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 13/03/2018
 // Seção de Declarações
 var
