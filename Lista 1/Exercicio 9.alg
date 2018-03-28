@@ -1,6 +1,6 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 9. Faça um algoritmo que solicita o comprimento dos lados de um retângulo e exibe seu perímetro e área.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 13/03/2018
 // Seção de Declarações
 var
