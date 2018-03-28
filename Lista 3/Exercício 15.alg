@@ -1,6 +1,6 @@
 algoritmo "semnome"
-// Função :
-// Autor :
+// Função : 15. Escreva um programa que receba uma data e retorna se ela é válida.
+// Autor : Henrique Borges de Almeida Filho
 // Data : 22/03/2018
 // Seção de Declarações
 var
