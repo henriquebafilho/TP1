@@ -8,8 +8,9 @@ contador : inteiro
 inicio
 escreval("Insira um número")
 leia(num)
-para contador de 0 ate 9 passo 1 faca
+repita
    produto <- num * contador
    escreval(produto)
-fimpara
+   contador <- contador + 1
+ate contador = 10
 fimalgoritmo
