@@ -1,6 +1,6 @@
 algoritmo "semnome"
-// Função : 5. Ler números inteiros fornecidos pelo usuário (até que esse informe
-// um número negativo) e exibir a soma dos números ímpares.
+// Função : Ler números inteiros fornecidos pelo usuário (até que esse informe um número
+// negativo) e exibir a soma dos números que são divisíveis por 5.
 // Autor : Henrique Borges de Almeida Filho
 // Data : 27/03/2018
 // Seção de Declarações
