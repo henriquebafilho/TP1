@@ -1,24 +1,17 @@
 algoritmo "semnome"
-// Função : 9. Escreva um programa que calcule e escreva a soma dos n primeiros números
-// naturais pares. O usuário do programa deve fornecer quantos números devem ser
-// somados.
+// Função : 8. Faça um algoritmo para exibir os números 1,4,9,16,25,...,10000.
 // Autor : Henrique Borges de Almeida Filho
 // Data : 28/03/2018
 // Seção de Declarações
 var
-contador,qtd,num,soma : inteiro
+constante,num : inteiro
 inicio
-escreval("Insira quantos números naturais pares devem ser somados: ")
-leia(qtd)
-se(qtd<=0)entao
-   escreval("Insira um valor natural")
-   fimalgoritmo
-senao
-   repita
-      num <- num + 2
-      escreval(num)
-      contador <- contador + 1
-   ate contador = qtd
-fimse
-escreval("A soma dos valores é",soma)
+constante <- 3
+num <- 1
+repita
+   escreval(num)
+   num <- num + constante
+   constante <- constante + 2
+ate num >= 10001
 fimalgoritmo
+
