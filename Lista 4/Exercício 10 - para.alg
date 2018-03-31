@@ -13,10 +13,10 @@ inicio
 escreval("Insira quantos automóveis são produzidos por bimestre: ")
 leia(qtdBi)
 
-repita
-    qtdAno <- qtdAno + qtdBi
-    bimestre <- bimestre + 1
-ate bimestre = 6
+para bimestre de 1 ate 6 passo 1 faca
+   qtdAno <- qtdAno + qtdBi
+   bimestre <- bimestre + 1
+fimpara
 
 qtdDia <- qtdAno/365
 
