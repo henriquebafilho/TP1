@@ -1,5 +1,5 @@
 algoritmo "semnome"
-// Função : Ler números inteiros fornecidos pelo usuário (até que esse informe um número
+// Função : 6. Ler números inteiros fornecidos pelo usuário (até que esse informe um número
 // negativo) e exibir a soma dos números que são divisíveis por 5.
 // Autor : Henrique Borges de Almeida Filho
 // Data : 27/03/2018
