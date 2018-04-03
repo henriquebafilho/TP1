@@ -13,13 +13,12 @@ enquanto (qtd < vezes) faca
    qtd <- qtd + 1
    escreval("Insira um número para testar se ele é primo: ")
    leia(num)
-   enquanto (contador<=num) faca
-      contador <- contador + 1
+   para contador de 1 ate num passo 1 faca
       se(num%contador=0)entao
          divisor <- num/contador
          divisores <- divisores + 1
       fimse
-   fimenquanto
+   fimpara
    se(divisores<=2)entao
       primos <- primos + num
       escreval("O número é primo.")
