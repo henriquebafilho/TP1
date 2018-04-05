@@ -4,12 +4,22 @@ algoritmo "semnome"
 // CONSECUTIVOS. EXEMPLO: 24 = 2 * 3 * 4)
 // Autor : Henrique Borges de Almeida Filho
 // Data : 27/03/2018
-// Seção de Declarações 
+// Seção de Declarações
 var
-numero,contador : real
+num,triangulo,n : inteiro
 inicio
-escreval("Insira um número: ")
-leia(numero)
-contardor <- 2
-
+escreval("Insira um número para verificar se ele é triangular: ")
+leia(num)
+n <- 2
+enquanto (triangulo<num) faca
+   triangulo <- (n-1)*n*(n+1)
+   se(triangulo=num)entao
+      escreval("O número é triangular.")
+      interrompa
+   fimse
+   n <- n + 1
+fimenquanto
+se(triangulo>num)entao
+   escreval("O número não é triangular.")
+fimse
 fimalgoritmo
