@@ -12,12 +12,12 @@ algoritmo "semnome"
 var
 n,n1,n2,n3,i : inteiro
 inicio
-n1 <- 1
+n1 <- 0
 n2 <- 1
 n3 <- n1 + n2
+i <- 1
 escreval("Escreva até que posição da sequência de Fibonacci você deseja que o programa rode: ")
 leia(n)
-
 escreval(n1)
 escreval(n2)
 repita
@@ -25,5 +25,7 @@ repita
    n3 <- n3 + n2
    n2 <- n3 - n2
    i <- i + 1
-ate i = n-2
+ate i = n-1
 fimalgoritmo
+
+
