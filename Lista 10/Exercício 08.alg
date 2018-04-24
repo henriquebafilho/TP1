@@ -10,7 +10,7 @@ algoritmo "semnome"
 // Autor : Henrique Borges de Almeida Filho
 // Data : 23/04/2018
 var
-x,y,somaFixa,soma,linhas : inteiro
+x,y,somaFixa,soma,contador1,contador2 : inteiro
 matriz:vetor[0..2,0..2] de inteiro
 magico : logico
 inicio
@@ -41,7 +41,6 @@ para x de 0 ate 2 passo 1 faca
       fimse
    fimpara
 fimpara
-soma <- 0
 //Checando a soma das colunas
 se(magico)entao
    para y de 0 ate 2 passo 1 faca
@@ -59,21 +58,37 @@ se(magico)entao
       fimpara
    fimpara
 fimse
-soma <- 0
-//Checando a soma das diagonais
+//Checando a soma da diagonal principal
 se(magico)entao
    para x de 0 ate 2 passo 1 faca
+      soma <- 0
       para y de 0 ate 2 passo 1 faca
          se(x=y) entao
             soma <- soma + matriz[x,y]
-            se(y=2)entao
-               se(soma<>somaFixa)entao
-                  escreval("A matriz não é um cubo mágico.")
-                  magico <- falso
-               fimse
-            fimse
+            contador1 <- contador1 + 1
          fimse
       fimpara
    fimpara
+   se(contador1<3)entao
+      escreval("A matriz não é um cubo mágico.")
+      magico <- falso
+   fimse
+fimse
+//Checando a soma da diagonal inversa
+se(magico)entao
+   para x de 0 ate 2 passo 1 faca
+      soma <- 0
+      para y de 0 ate 2 passo 1 faca
+         se(x+y=2) entao
+            soma <- soma + matriz[x,y]
+            contador2 <- contador2 + 1
+         fimse
+      fimpara
+   fimpara
+   se(contador2=3)entao
+      escreval("A matriz é um cubo mágico.")
+   senao
+      escreval("A matriz não é um cubo mágico.")
+   fimse
 fimse
 fimalgoritmo
