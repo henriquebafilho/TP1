@@ -4,8 +4,8 @@ algoritmo "semnome"
 // Data : 25/04/2018
 var
 repete,cont1,cont2,cont3,cont4,i :  inteiro
-repetidos:vetor[0..11] de inteiro
 elementos:vetor[0..11] de inteiro
+repetidos:vetor[0..11] de inteiro
 matriz:vetor[0..2,0..3] de inteiro
 inicio
 //Atribuindo valores à matriz
@@ -22,11 +22,10 @@ cont4 <- 1
 para i de 0 ate 11 faca
    se(cont4<12)entao
       se(elementos[cont4]=elementos[i])entao
-         repete <- repete+1
-         cont4 <- cont4+1
-      senao
-         cont4 <- cont4 + 1
+         repete <- repete + 1
+         repetidos[cont4] <- elementos[cont4]
       fimse
+      cont4 <- cont4 + 1
    fimse
 fimpara
 fimalgoritmo
