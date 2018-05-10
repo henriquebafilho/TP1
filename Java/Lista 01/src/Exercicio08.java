@@ -10,22 +10,32 @@ public class Exercicio08 {
         int idade;
         Scanner entrada = new Scanner(System.in);
         
-            System.out.println("Insira a idade da pessoa (insira -1 para encerrar): ");
-            idade = entrada.nextInt();
-        while(idade>0){
-            if(idade>=0 && idade<16){
-                System.out.println("Não-eleitor");
-            }
-            else{
-                if(idade>18 && idade<=65){
-                   System.out.println("Eleitor obrigatório"); 
-                }
-                if(idade>=16 && idade<=18 || idade>65){
-                    System.out.println("Eleitor facultativo");
-                }
-            }
-            System.out.println("Insira a idade da pessoa (insira -1 para encerrar): ");
-            idade = entrada.nextInt();
+        System.out.println("Insira a idade da pessoa (insira -1 para encerrar): ");
+        idade = entrada.nextInt();
+        while(idade!=-1){
+        	if(idade!=-1) {
+        		if(idade<-1) {
+        			while(idade<-1) {
+        				System.out.println("Insira uma idade válida");
+        				idade = entrada.nextInt();
+        			}
+        		}
+        		else if(idade>=0 && idade<16){
+	                System.out.println("Não-eleitor");
+	                System.out.println("Insira a idade da pessoa (insira -1 para encerrar): ");
+        	        idade = entrada.nextInt();
+	            }
+	            else if(idade>18 && idade<=65){
+	                   System.out.println("Eleitor obrigatório"); 
+	                   System.out.println("Insira a idade da pessoa (insira -1 para encerrar): ");
+	        	        idade = entrada.nextInt();
+	            }
+	            else if(idade>=16 && idade<=18 || idade>65){
+	                    System.out.println("Eleitor facultativo");
+	                    System.out.println("Insira a idade da pessoa (insira -1 para encerrar): ");
+	        	        idade = entrada.nextInt();
+	            }
+	       }
         }
     }
 }
