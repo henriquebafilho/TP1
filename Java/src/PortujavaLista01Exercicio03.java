@@ -2,7 +2,7 @@
 //3. Faça um algoritmo que imprima a idade do usuário daqui a 5 anos.
 import java.util.Scanner;
 
-public class Exercicio03 {
+public class PortujavaLista01Exercicio03 {
 	public static void main(String args[]) {
 		String nome = "Henrique";
 		int idade;

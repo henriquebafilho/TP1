@@ -2,7 +2,7 @@
 //8. Faça um algoritmo que solicita o raio de uma circunferência e exibe seu perímetro e área.
 import java.util.Scanner;
 
-public class Exercicio08 {
+public class PortujavaLista01Exercicio08 {
 	public static void main(String args[]) {
 		double raio, perimetro, area;
 		Scanner entrada = new Scanner(System.in);

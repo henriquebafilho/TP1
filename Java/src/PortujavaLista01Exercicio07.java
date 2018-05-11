@@ -2,7 +2,7 @@
 //7. Faça um algoritmo que solicite a nota de 5 alunos e ao final imprima a média dessas notas.
 import java.util.Scanner;
 
-public class Exercicio07 {
+public class PortujavaLista01Exercicio07 {
 	public static void main(String args[]) {
 		float nota1, nota2, nota3, nota4, nota5, media;
 		Scanner entrada = new Scanner(System.in);

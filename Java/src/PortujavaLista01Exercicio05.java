@@ -2,7 +2,7 @@
 //5. Faça um algoritmo que pergunte o nome e idade do usuário e imprima “Olá, <nome da pessoa>, você tem <idade da pessoa> anos”.
 import java.util.Scanner;
 
-public class Exercicio05 {
+public class PortujavaLista01Exercicio05 {
 	public static void main(String args[]) {
 		String nome;
 		int idade;

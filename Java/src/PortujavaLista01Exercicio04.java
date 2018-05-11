@@ -2,7 +2,7 @@
 //4. Faça um algoritmo que pergunte ao usuário dois números e imprima seu produto.
 import java.util.Scanner;
 
-public class Exercicio04 {
+public class PortujavaLista01Exercicio04 {
 	public static void main(String args[]) {
 		int n1, n2;
 		Scanner entrada = new Scanner(System.in);

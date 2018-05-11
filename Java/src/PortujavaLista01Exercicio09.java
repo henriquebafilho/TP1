@@ -2,7 +2,7 @@
 //9. Faça um algoritmo que solicita o comprimento dos lados de um retângulo e exibe seu perímetro e área.
 import java.util.Scanner;
 
-public class Exercicio09 {
+public class PortujavaLista01Exercicio09 {
 	public static void main(String args[]) {
 		double comprimento, largura, perimetro, area;
 		Scanner entrada = new Scanner(System.in);

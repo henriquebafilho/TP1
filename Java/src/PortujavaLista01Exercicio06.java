@@ -2,7 +2,7 @@
 //6. Faça um algoritmo que leia 3 números reais e exiba a soma do primeiro com o segundo multiplicada pela soma do segundo pelo terceiro.
 import java.util.Scanner;
 
-public class Exercicio06 {
+public class PortujavaLista01Exercicio06 {
 	public static void main(String args[]) {
 		float n1, n2, n3;
 		Scanner entrada = new Scanner(System.in);

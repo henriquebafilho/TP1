@@ -3,7 +3,7 @@
 de cada uma das 5 etapas e exibe o custo total do desenvolvimento do sistema e o tempo para conclusão.*/
 import java.util.Scanner;
 
-public class Exercicio10 {
+public class PortujavaLista01Exercicio10 {
 	public static void main(String args[]) {
 		double valor, tempo, valorFinal, tempoFinal;
 		Scanner entrada = new Scanner(System.in);
