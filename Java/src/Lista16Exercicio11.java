@@ -42,7 +42,7 @@ public class Lista16Exercicio11 {
 	public static double CalculaRaizes(int n1, int n2, int n3) {
 		double delta = Math.pow(n2, 2) - (4*n1*n3), 
 			   raizMaior = ((n2*-1) + delta)/(2*n1), 
-			   raizMenor = ((n2*-1) + delta)/(2*n1);
+			   raizMenor = ((n2*-1) - delta)/(2*n1);
 		if(raizMaior>raizMenor) {
 			return raizMaior;
 		}else if (raizMenor>raizMaior){
