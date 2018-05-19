@@ -18,7 +18,7 @@ public class Lista17Exercicio02 {
 			System.out.println("Insira o gabarito da questão " + (i + 1) + ". (Insira um número de 1 a 5):");
 			gabarito[i] = entrada.nextInt();
 			while (gabarito[i] > 5 || gabarito[i] < 1) {
-				System.out.println("Valor inválido. Insira um número de 1 a 5 para o gabarito da questão " + (i+1));
+				System.out.println("Valor inválido. Insira um número de 1 a 5 para o gabarito da questão " + (i + 1));
 				gabarito[i] = entrada.nextInt();
 			}
 		}
@@ -34,14 +34,14 @@ public class Lista17Exercicio02 {
 		// Lendo respostas dos alunos de acordo com a quantidade de alunos informada
 		for (int i = 0; i < qtd; i++) {
 			for (int j = 0; j < 10; j++) {
-				System.out.println("Aluno - " + (i + 1) + " - Respostas da questão - " + (j+1) + ": ");
+				System.out.println("Aluno - " + (i + 1) + " - Respostas da questão - " + (j + 1) + ": ");
 				respostas[i][j] = entrada.nextInt();
 			}
 		}
 		// Mostrando gabarito
 		System.out.println("O gabarito é: ");
 		for (int i = 0; i < 10; i++) {
-			System.out.println((i+1) + " - " + gabarito[i]);
+			System.out.println((i + 1) + " - " + gabarito[i]);
 		}
 		// Mostrando respostas dos alunos
 		for (int i = 0; i < qtd; i++) {
