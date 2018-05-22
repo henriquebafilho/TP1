@@ -21,8 +21,7 @@ public class Lista17Exercicio04 {
 			somaMedia += alturas[i];
 		}
 		mediaAltura = somaMedia / alturas.length;
-		// Checando quantos alunos com mais de 13 anos possuem altura inferior à
-		// média de altura desses alunos
+		// Checando quantos alunos com mais de 13 anos possuem altura inferior à média de altura desses alunos
 		for (int i = 0; i < 30; i++) {
 			if (idades[i] > 13 && alturas[i] > mediaAltura) {
 				somaTotal += 1;
