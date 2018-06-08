@@ -6,10 +6,12 @@ public class Lista18Exercicio02c {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		String sinopse;
-		
+
 		System.out.println("Insira a sinopse do filme:");
 		sinopse = entrada.nextLine();
-		sinopse = sinopse.replaceAll(" ", "");
+		while(sinopse.contains("  ")) {
+			sinopse = sinopse.replaceAll("  ", " ");
+		}		
 		System.out.println(sinopse);
 	}
 }
