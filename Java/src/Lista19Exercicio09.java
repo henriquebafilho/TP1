@@ -1,5 +1,5 @@
 
-/*2. Escreva um programa que dado um nome retorna a soma das letras desse nome,
+/*9. Escreva um programa que dado um nome retorna a soma das letras desse nome,
 conforme a posição da letra no alfabeto: A=1, B=2, C = 3 etc.
 Exemplo: Dado “BILL GATES”,
 Retorna 87, pois B = 2, I = 9, L = 12 etc. e
@@ -8,7 +8,7 @@ A verificação do número correspondente a letra deve ser feita através de uma fun
 dos números deve ser feita por outra função.*/
 import java.util.*;
 
-public class Lista20Exercicio02 {
+public class Lista19Exercicio09 {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		String nome;
