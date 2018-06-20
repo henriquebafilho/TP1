@@ -48,6 +48,7 @@ public class Lista20Exercicio03 {
 				System.out.println("O número " + telefones[i] + " é inválido pois não satisfaz as 3 exigências.");
 			}
 		}
+		System.out.println(validos+" números satisfazem as 3 exigências.");
 	}
 
 	public static int[] separar(int n) {
