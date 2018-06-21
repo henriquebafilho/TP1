@@ -13,6 +13,10 @@ public class Lista21Exercicio1c {
 
 		System.out.println("Insira a posição do elemento que você deseja encontrar:");
 		posicao = entrada.nextInt();
+		while(posicao<1) {
+			System.out.println("Insira uma posição positiva:");
+			posicao = entrada.nextInt();
+		}
 		System.out.println("O elemento na posição "+posicao+" é "+procurar(posicao));
 	}
 
