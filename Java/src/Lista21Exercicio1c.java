@@ -1,0 +1,29 @@
+
+/*1) Para as sequencias a seguir, escreva uma função recursiva que seja capaz de retornar
+o elemento desejado da sequencia. A função main é responsável pela iteração com o
+usuário, que indicará qual elemento da sequencia ele deseja visualizar.
+c) 1. S(1) = 4
+   2. S(n) = 2S(n­1)+3 para n>2*/
+import java.util.*;
+
+public class Lista21Exercicio1c {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int posicao;
+
+		System.out.println("Insira a posição do elemento que você deseja encontrar:");
+		posicao = entrada.nextInt();
+		System.out.println("O elemento na posição "+posicao+" é "+procurar(posicao));
+	}
+
+	public static int procurar(int p) {
+		int ultimo;
+		
+		if(p == 1) {
+			ultimo = 4;
+		} else {
+			ultimo = 2*procurar(p-1)+3;
+		}
+		return ultimo;
+	}
+}
