@@ -33,22 +33,15 @@ public class Lista19Exercicio03 {
 		}
 		//removento conectivos
 		for(int i = 0; i < palavras.length; i++) {
-			if(cortado.get(i).equals("e")) {
+			if(cortado.get(i).contains("de") && cortado.get(i).length()==2) {
 				cortado.remove(i);
+				System.out.println(cortado.get(i));
 			}
-			/* ||
-			   cortado.get(i).equals("do") ||
-			   cortado.get(i).equals("da") ||
-			   cortado.get(i).equals("dos") ||
-			   cortado.get(i).equals("das") ||
-			   cortado.get(i).equals("de") ||
-			   cortado.get(i).equals("di") ||
-			   cortado.get(i).equals("du")*/
 		}
-		/*//colocando iniciais maiúsculas
+		//colocando iniciais maiúsculas
 		for(int i = 0; i < palavras.length; i++) {
 			cortado.get(i).toUpperCase().charAt(0);
-		}*/
+		}
 		//Mostrando iniciais
 		for(int i = 0; i < palavras.length; i++) {
 			System.out.print(cortado.get(i));
