@@ -20,18 +20,24 @@ public class Lista21Exercicio1f {
 			System.out.println("Insira uma posição positiva:");
 			posicao = entrada.nextInt();
 		}
-		System.out.println("O elemento na posição " + posicao + " é " + procurar(posicao,primeiro,segundo));
+		System.out.println("O elemento na posição " + posicao + " é " +procurar(posicao, primeiro, segundo));
 	}
 
-	public static int procurar(int p,int p1, int p2) {
-		int ultimo = 0;
-		
+	public static int procurar(int p, int a, int b) {
+		int ultimo;
+
 		if (p == 1) {
-			ultimo = p1;
-		} else if (p==2) {
-			ultimo = p2;
+			ultimo = a;
+		} else if (p == 2) {
+			ultimo = b;
 		} else {
-			ultimo = procurar(p-1,0,0)+(procurar(p-1,0,0)*(p-2));
+			int[] coeficiente = new int[p];
+			coeficiente[0] = 1;
+			coeficiente[1] = 1;
+			for(int j = 2; j < p; j++) {
+				coeficiente[j] = coeficiente[j-2] + coeficiente[j-1];
+			}
+			ultimo = (a*(coeficiente[p-3])) + (b*(coeficiente[p-2]));
 		}
 		return ultimo;
 	}
