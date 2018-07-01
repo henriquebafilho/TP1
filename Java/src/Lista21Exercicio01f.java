@@ -5,7 +5,7 @@ usuário, que indicará qual elemento da sequencia ele deseja visualizar.
 f) a,b,a+b,a+2b,2a+3b,3a+5b,...*/
 import java.util.*;
 
-public class Lista21Exercicio1f {
+public class Lista21Exercicio01f {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		int primeiro, segundo, posicao;

@@ -6,7 +6,7 @@ a) 1. S(1) = 2
    2. S(n) = 2S(n­1) para n>1*/
 import java.util.*;
 
-public class Lista21Exercicio1a {
+public class Lista21Exercicio01a {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		int posicao;

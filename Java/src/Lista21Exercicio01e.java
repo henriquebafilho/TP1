@@ -2,10 +2,10 @@
 /*1) Para as sequencias a seguir, escreva uma função recursiva que seja capaz de retornar
 o elemento desejado da sequencia. A função main é responsável pela iteração com o
 usuário, que indicará qual elemento da sequencia ele deseja visualizar.
-d) 1,3,9,27,81,...*/
+e) 2,4,16,256,...*/
 import java.util.*;
 
-public class Lista21Exercicio1d {
+public class Lista21Exercicio01e {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		int posicao;
@@ -16,16 +16,16 @@ public class Lista21Exercicio1d {
 			System.out.println("Insira uma posição positiva:");
 			posicao = entrada.nextInt();
 		}
-		System.out.println("O elemento na posição "+posicao+" é "+procurar(posicao));
+		System.out.println("O elemento na posição " + posicao + " é " + procurar(posicao));
 	}
 
 	public static int procurar(int p) {
 		int ultimo;
-		
-		if(p == 1) {
-			ultimo = 1;
+
+		if (p == 1) {
+			ultimo = 2;
 		} else {
-			ultimo = 3*procurar(p-1);
+			ultimo = procurar(p-1)*procurar(p-1);
 		}
 		return ultimo;
 	}
